@@ -8,17 +8,17 @@ https://www.twilio.com/docs/voice/api/call-resource
 """
 
 
-class SpeechSynthesis:
-    def __int__(self):
-        pass
+
+def __int__():
+    pass
 
     #HandlerLLM will call synthesize audio with the transcript that needs to be read alloud
-    def SynthesizeAudio(self, transcript: str, phone_number: str):
-        pass
+def SynthesizeAudio(transcript: str, phone_number: str):
+    pass
 
     # Outputs a .wav file/twiML code depends how you implement it,
-    def SynthesizeAudio_Test(self, transcript: str) -> str:
-        pass
+def SynthesizeAudio_Test(transcript: str) -> str:
+    pass
 
 # You can implement this however you want, just make sure there is low latency
 # note you will have to call
